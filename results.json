@@ -1,0 +1,68 @@
+[
+  {
+    "algorithm": "Voronoi-Greedy",
+    "n_episodes": 1,
+    "reward_mean": 44.602273504634894,
+    "reward_std": 0.0,
+    "mean_aoi_mean": 715.4359983436252,
+    "mean_aoi_std": 0.0,
+    "weighted_aoi_mean": 672.0517556208283,
+    "weighted_aoi_std": 0.0,
+    "max_aoi_mean": 1649.6412876645088,
+    "max_aoi_std": 0.0,
+    "per_episode": [
+      {
+        "episode": 0,
+        "total_reward": 44.602273504634894,
+        "mean_aoi": 715.4359983436252,
+        "weighted_aoi": 672.0517556208283,
+        "max_aoi": 1649.6412876645088,
+        "per_uav_steps": [
+          65,
+          48,
+          52
+        ],
+        "per_uav_reward": [
+          13.003241431257438,
+          14.11880023945127,
+          17.48023183392617
+        ],
+        "total_steps": 165
+      }
+    ],
+    "wall_time_sec": 0.036551475524902344
+  },
+  {
+    "algorithm": "Genetic-Algorithm",
+    "n_episodes": 1,
+    "reward_mean": 39.70196569266067,
+    "reward_std": 0.0,
+    "mean_aoi_mean": 783.2505866742239,
+    "mean_aoi_std": 0.0,
+    "weighted_aoi_mean": 674.939502811448,
+    "weighted_aoi_std": 0.0,
+    "max_aoi_mean": 1736.632245254386,
+    "max_aoi_std": 0.0,
+    "per_episode": [
+      {
+        "episode": 0,
+        "total_reward": 39.70196569266067,
+        "mean_aoi": 783.2505866742239,
+        "weighted_aoi": 674.939502811448,
+        "max_aoi": 1736.632245254386,
+        "per_uav_steps": [
+          30,
+          19,
+          25
+        ],
+        "per_uav_reward": [
+          21.430865963691623,
+          9.801282670353459,
+          8.469817058615607
+        ],
+        "total_steps": 74
+      }
+    ],
+    "wall_time_sec": 397.21449279785156
+  }
+]
